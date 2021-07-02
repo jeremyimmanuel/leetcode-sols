@@ -19,4 +19,3 @@ def kClosest(points: List[List[int]], k: int) -> List[List[int]]:
     # runtime: O(NlogN)
     # space: o(n + k)
     return sorted(points, key=lambda pair: (pair[0]) ** 2 + (pair[1]) ** 2)[:k]
-
