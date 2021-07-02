@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+from typing import List
+
+EMPTY = 0
+FRESH = 1
+ROTTEN = 2
+
+def orangesRotting(self, grid: List[List[int]]) -> int:
+=======
 """
 How many iteration till everything is rotten, if possible
 
@@ -55,3 +64,4 @@ def orangesRotting(grid: List[List[int]]) -> int:
                         queue.append((neigh_row, neigh_col))
 
     return minutes_elapsed if fresh_oranges == 0 else -1
+>>>>>>> 1a014af6b5b1e1b31f6e0b312428968754a847d2
